@@ -1,0 +1,207 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nagarro Bootcamp</title>
+</head>
+
+<body>
+
+
+        <!-- Headers -->
+
+        <h1>Assignment Number 1</h1>
+
+        <hr>
+
+        <div class="left"> 
+            <h2>Fill Your Bio-Data here</h2>
+            <form class="form" action="">
+                <div class="rowTab">
+                  <div class="labels">
+                    <label>Name: </label>
+                    </div>
+                  
+                  <div class="rightTab">
+                    <input type="text" placeholder="Enter your name" required>
+                  </div>
+                </div>
+                
+                <div class="rowTab">
+                    <div class="labels">
+                      <label>Father's Name: </label>
+                      </div>
+                    
+                    <div class="rightTab">
+                      <input type="text" placeholder="Enter your father's name" required>
+                    </div>
+                  </div>               
+                
+                <div class="rowTab">
+                  <div class="labels">
+                    <label>Mother's Name: </label>
+                  </div>
+                  <div class="rightTab">
+                    <input type="text" placeholder="Enter your mother's name" required>
+                  </div>
+                </div>
+                
+                <div class="rowTab">
+                  <div class="labels">
+                    <label>Email: </label>
+                  </div>
+                  <div class="rightTab">
+                    <input type="email" placeholder="Enter your Email" required>
+                  </div>
+                </div>
+                <div class="rowTab">
+                  <div class="labels">
+                    <label>Age: </label>
+                  </div>
+                  <div class="rightTab">
+                    <input type="number" placeholder="Age" required>
+                  </div>
+                </div>
+                
+                <div class="rowTab">
+                  <div class="labels">
+                    <label for="department">Department: </label>
+                  </div>
+                  <div class="rightTab">
+                    <select class="dropdown">
+                    <option disabled value>Select an option</option>
+                    <option value="it">IT</option>
+                    <option value="cse">CSE</option>
+                    <option value="ece">ECE</option>
+                    <option value="mech">MECH</option>
+                    <option value="civil">CIVIL</option>
+                    <option value="other">Other</option>
+                    </select>
+                  </div>
+                </div>
+                
+                <div class="rowTab">
+                  <div class="labels">
+                    <label for="gender">Gender: </label>
+                  </div>
+                  <div class="rightTab">
+                    <ul style="list-style: none;">
+                      <li class="radio"><label><input value=""  type="radio">Male</label></li>
+                      <li class="radio"><label><input value=""  type="radio">Female</label></li>
+                      <li class="radio"><label><input value=""  type="radio">Others</label></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="rowTab">
+                  <div class="labels">
+                    <label for="address">Address: </label>
+                  </div>
+                  <div class="rightTab">
+                    <textarea placeholder="Enter your address here..."></textarea>
+                  </div>
+                </div>
+                <div class="rowTab">
+                  <div class="labels">
+                    <label for="pincode">Pincode: </label>
+                  </div>
+                  <div class="rightTab">
+                   <input type="number" placeholder="Pincode"></div>
+                </div>
+                
+                   <div class="rowTab">
+                  <div class="labels">
+                    <label for="language">Language Known: </label>
+                  </div>
+                  <div class="rightTab">
+                    <ul id="language" style="list-style: none;">
+                      <li class="checkbox"><label><input value="" type="checkbox">English</label></li>
+                      <li class="checkbox"><label><input value="" type="checkbox">Tamil</label></li>
+                      <li class="checkbox"><label><input value="" type="checkbox">Hindi</label></li>
+                      <li class="checkbox"><label><input value="" type="checkbox">Bengali</label></li>
+                      <li class="checkbox"><label><input value="" type="checkbox">Kannada</label></li>
+                      <li class="checkbox"><label><input value="" type="checkbox">Telugu</label></li>
+                      <li class="checkbox"><label><input value="" type="checkbox">Others</label></li>
+                    </ul>
+                  </div>
+                </div>
+                
+                <button class="submit" type="submit">Submit</button>
+            </form>
+
+        </div>
+
+        <div class="right"><h2>Time Schedule</h2> 
+        <table cellspacing="10" cellpadding="10">
+
+            <thead>
+                <tr>
+                    <th>Time\Days</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+            </thead>
+    
+            <tbody>
+    
+                <tr>
+                    <th>9:30AM-11:30AM</th>
+                    <!-- <td></td> -->
+                    <td colspan="2">Math</td>
+                    <td rowspan="2">Science Lab</td>
+                    <td>Hindi</td>
+                    <td>English</td>
+                </tr>
+                <tr>
+                    <th>11:30AM-1:30PM</th>
+                    <td>History</td>
+                    <td>Math</td>
+                    <!-- <td>Science</td> -->
+                    <td>Hindi</td>
+                    <td>English</td>
+                </tr>
+                <tr>
+                    <th>1:30PM-2PM</th>
+                    <td colspan="5">Break</td>
+                    
+                </tr>
+                <tr>
+                    <th>2PM-3PM</th>
+                    <td>Math</td>
+                    <td colspan="2">Biology Lab</td>
+                    <td>Hindi</td>
+                    <td>English</td>
+                </tr>
+                <tr>
+                    <th>3PM-4PM</th>
+                    <td>History</td>
+                    <td>Science</td>
+                    <td>Hindi</td>
+                    <td>Sanskrit</td>
+                    <td>P.T</td>
+                </tr>
+                <tr>
+                    <th>4PM-5PM</th>
+                    <td>Math</td>
+                    <td>Biology</td>
+                    <td colspan="2">Hindi</td>
+                    <td>Geography</td>
+                </tr>
+    
+    
+    
+            </tbody>
+    
+    
+        </table>
+        </div>
+
+        
+    </body>
+
+</html>
